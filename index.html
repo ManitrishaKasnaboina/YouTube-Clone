@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>YouTube Clone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+<h2 class="logo">YouTube Clone</h2>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Search videos">
+<button onclick="searchVideos()">Search</button>
+</div>
+</header>
+
+
+<!-- Video Player -->
+<div class="player-section">
+
+<iframe
+id="videoPlayer"
+width="900"
+height="450"
+src=""
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+
+<!-- Video Results -->
+<div id="videoContainer" class="video-container"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
